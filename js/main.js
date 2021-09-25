@@ -39,6 +39,7 @@ let letter= '';
 }());
 
 //Skillbars
+document.body.ontouch=()=>{move()};
 window.onscroll=()=>{move()};
 
 var i = 0;
